@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+		<link rel="stylesheet" href="/Rock-paper-scissor game/css/style.css">
+		<link rel="stylesheet" href="/Rock-paper-scissor game/css/modal.css">
+		<title>Rock, paper, scissors game</title>
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<h1>Rock, paper, scissors</h1>
+				<button id="restart" class="restart-btn">Restart game</button>
+				<div id="score" class="score">
+					<p>Player: 0</p>
+					<p>Computer: 0</p>
+				</div>
+				<h2>Choose one</h2>
+				<div class="choices">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col">
+								<i id="rock" class="choice fas fa-hand-rock fa-10x"></i></div>
+							<div class="col">
+								<i id="paper" class="choice fas fa-hand-paper fa-10x"></i></div>
+							<div class="col">
+								<i id="scissors" class="choice fas fa-hand-scissors fa-10x"></i></div>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
+
+		<!--Modal-->
+		<div class="container">
+			<div class="modal">
+				<div id="result" class="modal-content">
+					<h1>You win</h1>
+					<i class="fas fa-hand-rock fa-10x"></i>
+					<p>Computer chose Rock </p>
+				</div>
+			</div>
+		</div>
+		
+
+		<script src="main.js"></script>
+	</body>
+</html>
